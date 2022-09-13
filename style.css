@@ -36,3 +36,9 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.divButtons {
+  display: flex;
+  margin-bottom: 16px;
+  gap: 30px;
+}

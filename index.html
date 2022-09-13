@@ -10,8 +10,12 @@
 </head>
 <body>
   <div class="divButtons">
-    <button id="btnNewSketch">New Sketch</button>
-    <button id="btnChangeGrid">Change Grid Size</button>
+    <button id="btnNewSketch" onclick="resetSketchpadColor()">New Sketch</button>
+    <button id="btnChangeGrid" onclick="setGridSize()">Change Grid Size</button>
+  </div>
+  <div class="divButtons">
+    <button id="btnChangeColor" onclick="toggleColor()">Change Color</button>
+    <div id="divChangeColor">BLACK</div>
   </div>
   <div id="sketchpad"></div>
 </body>
